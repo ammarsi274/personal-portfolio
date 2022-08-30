@@ -5,7 +5,7 @@ const Quote = () => {
     <div className="mt-0">
       <section className="quote">
         <div className="w-screen min-h-screen flex items-center justify-center text-left">
-          <div className="w-[70vw] flex flex-col">
+          <div className="w-[70vw] flex flex-col drop-shadow-lg">
             <div>
               <RiDoubleQuotesR size={120} />
             </div>
