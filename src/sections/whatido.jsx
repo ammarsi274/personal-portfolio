@@ -6,7 +6,7 @@ import Hi from "../components/hi";
 const WhatIDo = () => {
   return (
     <div>
-      <section className="whatido">
+      <section className="whatido mt-20">
         <div className="w-screen flex items-centre justify-center">
           <div className="items-center justify-center drop-shadow-lg">
             <div className="flex flex-col items-center justify-center">

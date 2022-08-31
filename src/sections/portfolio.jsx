@@ -13,9 +13,13 @@ const Portfolio = () => {
               <div className="w-[35px] m-2 bg-transparent h-[15px] border-b-[2px] border-black"></div>
               <div className="w-[35px] m-2 bg-transparent h-[15px] border-b-[1px] border-white"></div>
             </div>
-            <div className=" w-[80vw] flex flex-col md:flex-row">
+            <div className="w-[80vw] flex flex-col md:flex-row">
               <Hi url={require("../images/AccIcon.jpg")} name="Skeliton" />
               <Hi url={require("../images/titanssqr.jpg")} name="computer" />
+              <Hi
+                url={require("../images/i0w3ubal6o651.png")}
+                name="computer"
+              />
             </div>
           </div>
         </div>

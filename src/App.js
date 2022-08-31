@@ -10,6 +10,8 @@ import About from "./sections/about";
 import WhatIDo from "./sections/whatido";
 import Quote from "./sections/quote";
 import Portfolio from "./sections/portfolio";
+import Resume from "./sections/resume";
+import Stats from "./sections/statscount";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <WhatIDo />
       <Quote />
       <Portfolio />
+      <Resume />
+      <Stats />
     </div>
   );
 }
