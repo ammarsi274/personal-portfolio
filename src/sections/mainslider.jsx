@@ -7,7 +7,7 @@ const MainSlider = () => {
   return (
     <div className="text-white">
       <section className="mainslider">
-        <div>
+        <div className="translate-y-[-5] duration-300">
           <div className="w-screen flex items-centre">
             <div className="text-left mx-[10%] mt-[140px] flex-col drop-shadow-lg">
               <p className="tracking-[0.4em]">WELCOME TO MY WEBSITE</p>
@@ -36,7 +36,7 @@ const MainSlider = () => {
                 challenges.
               </p>
               <div>
-                <ResumeBtn />
+                <ResumeBtn name={"My Resume"} />
               </div>
             </div>
             <div className="flex h-[100vh]  items-center mx-10 drop-shadow-lg">

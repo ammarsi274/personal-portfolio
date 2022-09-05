@@ -11,7 +11,7 @@ const Stats = () => {
     >
       <section className="statscount">
         <div className="w-screen min-h-screen flex items-center justify-center">
-          <div className="flex flex-col md:flex-row items-center justify-center">
+          <div className="flex flex-col md:flex-row items-center justify-center drop-shadow-lg">
             <div className="text-white font-bold text-4xl p-10">
               <h1>
                 {counterOn && (

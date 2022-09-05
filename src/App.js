@@ -12,6 +12,8 @@ import Quote from "./sections/quote";
 import Portfolio from "./sections/portfolio";
 import Resume from "./sections/resume";
 import Stats from "./sections/statscount";
+import Contact from "./sections/contact";
+import Footer from "./sections/footer";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
       <Portfolio />
       <Resume />
       <Stats />
+      <Contact />
+      <Footer />
     </div>
   );
 }

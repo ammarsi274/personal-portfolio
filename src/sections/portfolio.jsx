@@ -15,11 +15,11 @@ const Portfolio = () => {
             </div>
             <div className="w-[80vw] flex flex-col md:flex-row">
               <Hi url={require("../images/AccIcon.jpg")} name="Skeliton" />
-              <Hi url={require("../images/titanssqr.jpg")} name="computer" />
               <Hi
                 url={require("../images/i0w3ubal6o651.png")}
                 name="computer"
               />
+              <Hi url={require("../images/titanssqr.jpg")} name="computer" />
             </div>
           </div>
         </div>
